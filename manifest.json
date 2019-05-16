@@ -39,9 +39,7 @@
        "assistedservicepromotionaddon",
        "pcmbackofficesamplesaddon",
        "personalizationsearchsamplesaddon",
-       "datahubadapter",
        "secureportaladdon",
-       "datahubbackoffice",
        "sapcoreaddon",
        "sapcoreconfigurationbackoffice",
        "sapmodelbackoffice",
@@ -116,10 +114,6 @@
                     "contextPath": "/backoffice"
                 },
                 {
-                    "name": "datahubadapter",
-                    "contextPath": "/datahubadapter"
-                },
-                {
                     "name": "oauth2",
                     "contextPath": "/authorizationserver"
                 }
@@ -165,36 +159,4 @@
                     "value": "8"
                 },
                 {
-                    "key": "catalog.sync.workers",
-                    "value": "8"
-                },
-                {
-                    "key": "task.polling.interval",
-                    "value": "1"
-                },
-                {
-                    "key": "processengine.process.canjoinpreviousnode.default",
-                    "value": "true"
-                }             
-            ],
-            "webapps": [
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
-                    "name": "mediaweb",
-                    "contextPath": "/medias"
-                },
-                {
-                    "name": "datahubadapter",
-                    "contextPath": "/datahubadapter"
-                },
-                {
-                    "name": "oauth2",
-                    "contextPath": "/authorizationserver"
-                }
-            ]
-        }
-    ]
-}
+                    "key": 
